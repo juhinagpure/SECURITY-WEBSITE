@@ -18,16 +18,19 @@ html {
 	justify-content: center;
 }
 
+
+
+
 /* Nav Bar  */
 #nav-bar {
 	height: auto;
 	width: 100%;
 	position: fixed;
 	z-index: 100;
-	background-color: blue;
+	background-color: black;
 }
 .nav-bar {
-	background-color: blue;
+	background-color: black;
 	left: 0;
 	top: 0;
 	padding: 1rem 4rem;
@@ -126,7 +129,7 @@ html {
 	transition: .3s ease transform;
 }
 .nav-bar .nav-list ul li a {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: white;
@@ -158,7 +161,7 @@ html {
 .hero .hero-info .hero-info-heading {
 	font-size: 5rem;
 	font-weight: 500;
-	color:white;
+	color: whitesmoke;
 }
 .hero .hero-info .hero-info-subheading {
 	font-size: 1.6rem;
@@ -210,10 +213,10 @@ html {
 	padding-right: 5rem;
 	padding-bottom: 5rem;
 	flex-direction: row;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	line-height: 2rem;
 	margin-top: 10px;
-	
+}
 
 .hello {
 		background-color: black;
@@ -241,12 +244,11 @@ html {
 	padding-right: 5rem;
 	padding-bottom: 5rem;
 	flex-direction: row;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	line-height: 2rem;
 	margin-top: 10px;
 	color: whitesmoke;
 }
-
 
 
 
@@ -477,7 +479,7 @@ html {
 }
 /* End Footer section  */
 
-/* Media query   */
+/* Media query for desktop and tab  */
 @media only screen and (min-width: 768px) {
 	.nav-bar .nav-list .hamburger {
 		display: none;
@@ -537,9 +539,9 @@ html {
 		margin: 0;
 	}
 }
-/* End Media query   */
+/* End Media query for desktop and tab  */
 
-/* Media Query   */
+/* Media Query For Desktop Only  */
 @media only screen and (min-width: 1200px) {
 	.hero .hero-info .hero-info-heading {
 		font-size: 6rem;
@@ -548,4 +550,4 @@ html {
 		letter-spacing: .8rem;
 	}
 }
-/* End Media Query   */
+/* End Media Query For Desktop Only  */
